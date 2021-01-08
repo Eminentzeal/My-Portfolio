@@ -423,6 +423,16 @@
   margin-top: 2rem;
 }
 
+.contact footer {
+    font-size: 1rem;
+    position: fixed;
+    bottom: 0.4rem;
+    right: 11.3rem;
+    text-align: right;
+    padding: 1rem;
+    color: #fff;
+}
+
 body {
   background: #272727;
   color: #fff;
