@@ -467,6 +467,10 @@ main .social-icons a:hover {
   color: #ff652f;
 }
 
+.fab {
+  font-size: 1.5rem;
+}
+
 footer {
   font-size: 1rem;
   position: fixed;
