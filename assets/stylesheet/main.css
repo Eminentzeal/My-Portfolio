@@ -218,6 +218,7 @@
 .about__bio-image p {
   -webkit-margin-after: 2rem;
           margin-block-end: 2rem;
+  line-height: 1.5rem;
 }
 
 .about__bio {
@@ -227,6 +228,7 @@
 
 .about__bio .text-secondary {
   padding-bottom: 1rem;
+  font-weight: 600;
 }
 
 .about .jobs {
@@ -251,6 +253,15 @@
 
 .about .jobs__job h6 {
   margin: 0.3rem 0;
+}
+
+.about .jobs__job li {
+  list-style-type: none;
+}
+
+.about .jobs__duration {
+  font-style: italic;
+  opacity: 0.3;
 }
 
 .about .social-icons {
