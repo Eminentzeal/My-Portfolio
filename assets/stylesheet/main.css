@@ -510,4 +510,9 @@ footer {
   color: #fff;
 }
 
-@media only screen ( max-width:600 and min-width:400)
+@media screen and (min-width: 992px ){
+  .projects__items {
+    display: grid;
+    grid-template-columns: 2fr;
+  }
+}
