@@ -266,6 +266,52 @@
   opacity: 0.3;
 }
 
+button {
+  --color: #ff652f;
+  font-family: inherit;
+  display: inline-block;
+  width: 8em;
+  height: 2.6em;
+  line-height: 2.5em;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #fff;
+  transition: color .5s;
+  z-index: 1;
+  font-size: 17px;
+  border-radius: 50em;
+  font-weight: 500;
+  color: #fff;
+  background-color: #ff652f;
+  cursor: pointer;
+ }
+ 
+ button:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: #fff;
+  height: 150px;
+  width: 200px;
+  border-radius: 50%;
+ }
+ 
+ button:hover {
+  color: #ff652f;
+  background-color: #fff;
+ }
+ 
+ button:before {
+  top: 100%;
+  left: 100%;
+  transition: all .7s;
+ }
+ 
+ button:hover:before {
+  top: -30px;
+  left: -30px;
+ }
+ 
 
 .about .social-icons {
   display: -webkit-box;
